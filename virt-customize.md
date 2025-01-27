@@ -1,3 +1,9 @@
+# Install
+apt-get install libguestfs-tool virtinst
+
+TARGET_DISK="~/fedora/CentOS-Stream-GenericCloud-x86_64-10-latest.x86_64.qcow2"
+PASSWORD="fedora"
+HOSTNAME="
 
 # add root password
 virt-customize --add "PathToTagetDisk" \
