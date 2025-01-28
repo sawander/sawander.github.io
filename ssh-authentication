@@ -1,0 +1,6 @@
+## Setup gpg-agent for ssh authentication
+
+```
+echo "use-agent" >> ~/.gnupg/gpg.conf
+```
+
